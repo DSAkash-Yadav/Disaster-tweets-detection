@@ -54,11 +54,11 @@ if st.button('Predict'):
     result = model.predict(vector_input)[0]
 
     if result == 1:
-        st.header("The tweet is related to the Disasters")
-        st.image("C:\\Users\\ay284\\Downloads\\vildisast.jpg")
+        st.header("This tweet is related to the Disasters")
+        
     else:
-        st.header("The tweet is not related to the disasters")
-        st.image("C:\\Users\\ay284\\Downloads\\pexels-willsantos-2026960.jpg")
+        st.header("This tweet is not related to the disasters")
+        
 
 
 
